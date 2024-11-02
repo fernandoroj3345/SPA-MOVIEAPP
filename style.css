@@ -1,0 +1,100 @@
+#search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#search-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+#search-form button {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+}
+
+.card {
+    background-color: #121111;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(2.0); /* Efecto al pasar el mouse */
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.hidden {
+    display: none; /* Para ocultar elementos */
+}
+
+.movie-details {
+    padding: 20px; /* Espaciado para la sección de detalles */
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Margen superior para la paginación */
+}
+
+.pagination-container button {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px; /* Margen entre botones */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+.pagination-container button:disabled {
+    background-color: #555; /* Color para botones deshabilitados */
+}
+
+#search-container {
+    display: flex;
+    justify-content: center; /* Centrar el contenedor de búsqueda */
+    margin-bottom: 20px; /* Margen inferior para separación */
+}
+
+#search-form input {
+    padding: 10px; /* Espaciado interno del input */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; 
+    margin-right: 10px; /* Espacio entre input y botón */
+}
+
+#search-form button {
+    background-color: #1e88e5;
+    color: white;
+    border: none; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
